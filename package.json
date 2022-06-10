@@ -7,7 +7,9 @@
   "description": "custom-react-library",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [
     "lib3"
@@ -21,13 +23,25 @@
   ],
   "types": "dist/index.d.ts",
   "devDependencies": {
+    "@babel/core": "^7.18.2",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.2",
+    "@storybook/addon-actions": "^6.5.8",
+    "@storybook/addon-essentials": "^6.5.8",
+    "@storybook/addon-interactions": "^6.5.8",
+    "@storybook/addon-links": "^6.5.8",
+    "@storybook/builder-webpack5": "^6.5.8",
+    "@storybook/manager-webpack5": "^6.5.8",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.5.8",
+    "@storybook/testing-library": "^0.0.12",
     "@types/react": "^18.0.12",
+    "babel-loader": "^8.2.5",
     "node-sass": "^7.0.1",
     "postcss": "^8.4.14",
     "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "rollup": "^2.75.6",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-postcss": "^4.0.2",
