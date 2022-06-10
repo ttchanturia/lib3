@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/ttchanturia"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "custom-react-library",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
