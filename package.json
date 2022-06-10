@@ -1,0 +1,38 @@
+{
+  "name": "@ttchanturia/lib3",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ttchanturia"
+  },
+  "version": "1.0.1",
+  "description": "custom-react-library",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "keywords": [
+    "lib3"
+  ],
+  "author": "toko",
+  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.12",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.14",
+    "react": "^18.1.0",
+    "rollup": "^2.75.6",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.52.3",
+    "typescript": "^4.7.3"
+  }
+}
