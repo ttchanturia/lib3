@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/ttchanturia"
   },
-  "version": "1.0.3",
+  "version": "1.0.19",
   "description": "custom-react-library",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -43,15 +43,19 @@
     "css-vars-ponyfill": "^2.4.7",
     "node-sass": "^7.0.1",
     "postcss": "^8.4.14",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
     "rollup": "^2.75.6",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.52.3",
     "tinycolor2": "^1.4.2",
     "tslib": "^2.4.0",
     "typescript": "^4.7.3"
+  },
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }
