@@ -4,7 +4,6 @@ import './button.sass';
 import { ButtonCSSClasses } from "./enums/button-css-class.enum";
 import { AppTheme, AppThemes } from "../theme/types/types";
 import { disabled as disabledConst } from "../globals.enum";
-import { upIcon } from "../icons/lib";
 
 export interface ButtonProps {
     label: string
@@ -13,8 +12,6 @@ export interface ButtonProps {
     type?: ButtonType
     theme?: AppTheme
     disabled?: boolean
-    icon: upIcon;
-    trailingIcon: upIcon;
 }
 
 const Button = (props: ButtonProps) => {
@@ -22,8 +19,6 @@ const Button = (props: ButtonProps) => {
         [ButtonCSSClasses.BASE, buttonClasses.get(ButtonTypes.PRIMARY)])
 
     useEffect(() => {
-        console.log(props)
-
         const { width, color, type, theme, disabled } = props
         const changes: string[] = [ButtonCSSClasses.BASE, buttonClasses.get(type)]
 
@@ -53,9 +48,6 @@ const Button = (props: ButtonProps) => {
         changes.push(buttonWidthClasses.get(width))
 
         disabled && changes.push(disabledConst)
-
-        console.log(changes)
-
         setbuttonStyle(changes)
     }, [props])
 
