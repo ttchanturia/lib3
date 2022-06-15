@@ -1,6 +1,8 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Button from "./Button";
+import { ButtonColors, ButtonTypes, ButtonWidths } from "./button.constants";
+import { AppThemes } from "../theme/types/types";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -15,4 +17,9 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 export const ClickMe = Template.bind({});
 ClickMe.args = {
     label: "Click me!!!",
+    width: ButtonWidths.FIXED,
+    color: ButtonColors.DANGER,
+    type: ButtonTypes.SECONDARY,
+    theme: AppThemes.DARK,
+    disabled: false
 };

@@ -1,5 +1,0 @@
-export * from './negative-variants'
-export * from './neutrals-variants'
-export * from './positive-variants'
-export * from './spacing-configuration'
-export * from './warning-variants'
