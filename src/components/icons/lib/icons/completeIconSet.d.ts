@@ -1,1249 +1,1249 @@
 export declare const completeIconSet: ({
     name: "accounts_payable_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "accounts_payable_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "accounts_receivable_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "accounts_receivable_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "add_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "address_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "admin";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_bell_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_error_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_error_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_help_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_help_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_info_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_info_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_success_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_success_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_warning_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alert_warning_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "alerts_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "amount_less_than_30_d_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "amount_more_than_30_d_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "amount_overdue_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "amount_total_dollar_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "amount_total_euro_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "amount_total_pound_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "amount_total_yen_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "approve_document_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "apps_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "apps_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "archive_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "archive_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "arrow_down_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "arrow_left_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "arrow_right_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "arrow_up_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "attachment_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "attachment_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "authentication_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "back_arrow_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "badge_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bank_accounts_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bank_accounts_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "calendar_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cancel_changes_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "catalog";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "change_account_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "change_photo_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "check_mark_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "chevron_down_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "chevron_down_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "chevron_left_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "chevron_left_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "chevron_right_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "chevron_right_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "chevron_up_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "chevron_up_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "clean_up_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "clear_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "clients_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "clients_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "clients";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "close_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "close_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "collapse_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "comment_appended_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "comments_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "company_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "company_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "compare_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "config_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "copy_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "country_placeholder";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "country_selected";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "deactivate_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "delete_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "density_condensed_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "density_regular_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "density_relaxed_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "details_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "discount";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "doc_center_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "doc_center_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "document_alt_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "document_link_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "document_not_linked_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "document_pdf_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "document";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "done_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "download_attachment_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "download_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "edit_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "email_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "expand_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "export_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "favourite_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "federated_identity_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "filter_active_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "filter_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "first_page_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "first_page_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "first_page_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "fit_to_height_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "fit_to_width_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "full_screen_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "go_to_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "grid_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "hide_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "home_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "home_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "idea_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "image_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "import_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "inbox_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "invite_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "invoice_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "keycloak_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "kickstart_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "language_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "last_page_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "last_page_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "last_page_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "leading_arrow_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "link_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "lock_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "logo_acerta_white";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "logo_sdworx_white";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "logout_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "maintenance_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mark_as_accept_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mark_as_paid_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "message_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "minus_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "missing_document_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "missing_state";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "move_left_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "move_right_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "move_to_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "multi_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "my_account_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "network_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "new_folder_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "news_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "notification_error_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "outbox_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pay_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "plus_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "process_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "product_catalog_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "purchases";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "rearrange_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "restore_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "save_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "scan_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "search_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "search_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "security_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "server_related_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sessions_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "settings_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "settings_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "show_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sort_down_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sort_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sort_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sort_up_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "spinner_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "split_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "subscriptions";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sync_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "take_photo_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tasks_large";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tasks_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "template";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "trailing_arrow_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "trailing_icon";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "up_logo_name";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "up_logo_shape";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "up_logo_tagline";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "upload_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "user_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "user_small";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "vat_exempt_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "vertical_dots_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "warning_icon";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "zoom_in_disabled_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "zoom_in_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "zoom_out_medium";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ad";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ae";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "af";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ag";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ai";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "al";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "am";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ao";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ar";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "as";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "at";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "au";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "aw";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ax";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "az";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ba";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bb";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bd";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "be";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bf";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bh";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bi";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bj";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bo";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "br";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bs";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bt";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bw";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "by";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "bz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ca";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cc";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cd";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cf";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ch";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ci";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ck";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cl";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "co";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cu";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cv";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cx";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cy";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "cz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "de";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "dj";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "dk";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "dm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "do";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "dz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ec";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ee";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "eg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "eh";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "er";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "es";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "et";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "fi";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "fj";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "fk";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "fm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "fo";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "fr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ga";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gb";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gd";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ge";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gh";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gi";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gl";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gq";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gt";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gu";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gw";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "gy";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "hk";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "hn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "hr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ht";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "hu";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "id";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ie";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "il";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "im";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "in";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "io";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "iq";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ir";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "is";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "it";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "je";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "jm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "jo";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "jp";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ke";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "kg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "kh";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ki";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "km";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "kn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "kp";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "kw";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ky";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "kz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "la";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "lb";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "lc";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "li";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "lk";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "lr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ls";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "lt";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "lu";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "lv";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ly";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ma";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mc";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "md";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "me";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mf";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mh";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mk";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ml";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mo";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mp";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mq";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ms";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mt";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mu";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mv";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mw";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mx";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "my";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "mz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "na";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ne";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "nf";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ng";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ni";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "nl";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "no";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "np";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "nr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "nu";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "nz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "om";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pa";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pe";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pf";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ph";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pk";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pl";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ps";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pt";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "pw";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "py";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "qa";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ro";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "rs";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ru";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "rw";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sa";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sb";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sc";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sd";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "se";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "si";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sk";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sl";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "so";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ss";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "st";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sv";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sy";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "sz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tc";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "td";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "th";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tj";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tk";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tl";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "to";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tr";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tt";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tv";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tw";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "tz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ua";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ug";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "us";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "uy";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "uz";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "va";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "vc";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ve";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "vg";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "vi";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "vn";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "vu";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ws";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "ye";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "za";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "zm";
-    data: string;
+    data: JSX.Element;
 } | {
     name: "zw";
-    data: string;
+    data: JSX.Element;
 })[];

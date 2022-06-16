@@ -1,4 +1,4 @@
 export declare const upIconMh: {
     name: 'mh';
-    data: string;
+    data: JSX.Element;
 };

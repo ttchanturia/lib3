@@ -419,5 +419,5 @@ export declare const upIcon: {
 };
 export interface UpIcon {
     name: upIcon;
-    data: string;
+    data: JSX.Element;
 }

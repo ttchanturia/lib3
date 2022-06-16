@@ -1,4 +1,4 @@
 export declare const upIconMq: {
     name: 'mq';
-    data: string;
+    data: JSX.Element;
 };

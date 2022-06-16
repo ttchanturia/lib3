@@ -1,4 +1,4 @@
 export declare const upIconSettingsLarge: {
     name: 'settings_large';
-    data: string;
+    data: JSX.Element;
 };

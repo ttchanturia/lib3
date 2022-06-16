@@ -1,4 +1,4 @@
 export declare const upIconLogoutSmall: {
     name: 'logout_small';
-    data: string;
+    data: JSX.Element;
 };

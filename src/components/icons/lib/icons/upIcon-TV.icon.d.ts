@@ -1,4 +1,4 @@
 export declare const upIconTv: {
     name: 'tv';
-    data: string;
+    data: JSX.Element;
 };
