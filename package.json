@@ -3,13 +3,14 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/ttchanturia"
   },
-  "version": "1.0.30",
+  "version": "1.1.10",
   "description": "custom-react-library",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate-icons": "svgr -d src ./src/assets --icon --typescript --out-dir ./src"
   },
   "keywords": [
     "lib3"
@@ -24,6 +25,10 @@
   "types": "dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.18.2",
+    "@babel/plugin-transform-runtime": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/runtime": "^7.7.2",
+    "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.2",
@@ -36,6 +41,7 @@
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.5.8",
     "@storybook/testing-library": "^0.0.12",
+    "@svgr/cli": "^6.2.1",
     "@types/jest": "^28.1.1",
     "@types/react": "^18.0.12",
     "@types/tinycolor2": "^1.4.3",
