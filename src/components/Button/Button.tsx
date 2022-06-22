@@ -4,6 +4,7 @@ import './button.sass';
 import { ButtonCSSClasses } from "./enums/button-css-class.enum";
 import { AppTheme, AppThemes } from "../theme/types/types";
 import { disabled as disabledConst } from "../globals.enum";
+import { getIconFromName, IconType } from "../../icons/Icon.constants";
 
 export interface ButtonProps {
     label: string
@@ -12,6 +13,8 @@ export interface ButtonProps {
     type?: ButtonType
     theme?: AppTheme
     disabled?: boolean
+    icon: IconType
+    trailingIcon: IconType
 }
 
 const Button = (props: ButtonProps) => {
@@ -51,9 +54,17 @@ const Button = (props: ButtonProps) => {
         setbuttonStyle(changes)
     }, [props])
 
+    console.log(props)
+
     return (
         <button className={buttonStyle.join(' ')}>
+            <i>
+                {getIconFromName(props.icon)}
+            </i>
             {props.label}
+            <i>
+                {getIconFromName(props.trailingIcon)}
+            </i>
         </button>
     )
 

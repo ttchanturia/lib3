@@ -19,7 +19,7 @@ TemplateIcons.args = {
     width: '32',
     height: '32',
     color: 'var(--up-brand-1)',
-    icon: IdeaMedium
+    icon: 'gotomedium'
 }
 
 

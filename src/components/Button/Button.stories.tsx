@@ -3,6 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Button from "./Button";
 import { ButtonColors, ButtonTypes, ButtonWidths } from "./button.constants";
 import { AppThemes } from "../theme/types/types";
+import { HomeMedium, SearchMedium, ChevronDownMedium, ChevronUpMedium } from "../../icons";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

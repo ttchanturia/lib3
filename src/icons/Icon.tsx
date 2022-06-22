@@ -1,22 +1,20 @@
 import React, { useEffect, useState } from "react";
-import IconTypes, { IconType, IconTypess } from "./Icon.constants";
-import iconsStories from "./icons.stories";
+import IconMap, { IconType, getIconFromName } from "./Icon.constants";
 import { IdeaMedium, LanguageMedium } from ".";
 
 export interface IconProps {
-    icon: typeof IdeaMedium | typeof LanguageMedium
+    icon: IconType,
     width?: string,
     color?: string
     height: string
 }
 
 const Icon = (props: IconProps) => {
-    //console.log(IconTypes[props.icon])
-
+    console.log(props)
     return (
         <div style={{ color: props.color, width: props.width, height: props.height }}>
-            {/* {IconTypes[props.icon]()} */}
-            <props.icon color={props.color} />
+            {getIconFromName(props.icon)}
+            {/* <props.icon color={props.color} /> */}
         </div>
     )
 
