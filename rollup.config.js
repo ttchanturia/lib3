@@ -29,8 +29,7 @@ export default [
             typescript({ tsconfig: "./tsconfig.json" }),
             postcss(),
             peerDepsExternal(),
-            terser(),
-            // renameNodeModules("tsx", false)
+            terser()
         ],
         external: ["react", "react-dom", "styled-components"],
     },
