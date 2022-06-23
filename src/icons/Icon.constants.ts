@@ -425,7 +425,8 @@ console.log(iconArray)
 console.log(iconKeys)
 
 const IconMap = {}
-iconArray.map(icon => IconMap[icon.name.toLocaleLowerCase().substring(3)] = icon)
+
+iconArray.map((icon, index) => IconMap[iconKeys[index].toLocaleLowerCase()] = icon)
 
 export const getIconFromName = (iconName: IconType) => {
     return iconName && IconMap[iconName]()

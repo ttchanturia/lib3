@@ -22,5 +22,6 @@ ClickMe.args = {
     color: ButtonColors.DANGER,
     type: ButtonTypes.SECONDARY,
     theme: AppThemes.DARK,
-    disabled: false
+    disabled: false,
+    children: <HomeMedium />
 };

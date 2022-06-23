@@ -14,7 +14,8 @@ export interface ButtonProps {
     theme?: AppTheme
     disabled?: boolean
     icon: IconType
-    trailingIcon: IconType
+    trailingIcon: IconType,
+    children: JSX.Element
 }
 
 const Button = (props: ButtonProps) => {
@@ -65,6 +66,7 @@ const Button = (props: ButtonProps) => {
             <i>
                 {getIconFromName(props.trailingIcon)}
             </i>
+            {props.children}
         </button>
     )
 
